@@ -2,6 +2,14 @@
   margin: 0;
   padding: 0;
 }
+
+.section-video {
+  background-image: url(assents/imgevideo/fundo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+}
+
 .grid {
   display: grid;
   gap: 2rem;
@@ -20,7 +28,7 @@ a {
 
 img {
   width: 100%;
-  height: auto;
+  height: 45em;
   margin-left: 0%;
   margin-top: 0%;
 }
@@ -56,13 +64,14 @@ img {
   height: 3rem;
   width: 100%;
   display: block;
-  -webkit-margin-before: -14em;
+
   background-image: linear-gradient(
     to top,
     rgb(146, 33, 46),
     rgb(223, 50, 71),
     rgb(233, 115, 115)
   );
+  -webkit-margin-before: -2.3em;
 }
 
 .title {
@@ -82,8 +91,6 @@ img {
   grid-auto-flow: column;
 }
 .button {
-  position: relative;
-  top: -18em;
   background-image: linear-gradient(
     to top,
     rgb(33, 59, 146),
@@ -100,6 +107,7 @@ img {
   border-radius: 0.5rem;
   font: 700 1rem 'DM sans', white;
   transition: background 0.3s;
+  -webkit-margin-after: 2em;
 }
 
 .button1 {
@@ -118,10 +126,7 @@ img {
   border-radius: 0.5rem;
   font: 700 1rem 'DM sans', white;
 }
-.grid {
-  display: grid;
-  gap: 2rem;
-}
+
 .container {
   margin-left: 0rem;
   margin-right: 0rem;
@@ -132,8 +137,6 @@ img {
   text-align: center;
 }
 .text h3 {
-  position: relative;
-  top: -18em;
   color: white;
   font: 600 1rem 'Cinzel';
 }
@@ -292,26 +295,18 @@ nav.show div.icon-menu {
   left: 10rem;
 }
 
-.image1 img {
-  position: relative;
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(15px);
-  filter: blur(5px);
-}
 .video embed {
-  position: relative;
-  top: -63%;
   border: inset rgb(51, 161, 212);
-  width: 68%;
-  height: 40%;
+  -webkit-margin-before: 2em;
   text-align: center;
+  width: 50%;
+  height: 30%;
 }
 
 /* Localização */
 .image2 img {
   width: 50%;
+  height: auto;
   margin-top: 2%;
 }
 
@@ -396,7 +391,6 @@ footer .icon-steel_tube {
     margin-bottom: 1rem;
   }
   .video embed {
-    top: -57%;
     width: 62%;
     height: 31%;
   }
@@ -463,21 +457,20 @@ footer .icon-steel_tube {
   .button {
     font: 700 1.5rem 'DM sans', white;
     padding: 0px 3rem;
-    top: -15em;
   }
   .text h3 {
     font: 600 1.5rem 'Cinzel';
-    top: -15em;
   }
   h2.contato {
     font: 700 1.3rem 'Cinzel', sans-serif;
   }
   .video embed {
-    top: -55%;
     width: 56%;
     height: 31%;
   }
-
+  .toggle {
+    font-size: 2.5rem;
+  }
   .title {
     font: 700 1.875rem 'Poppins', sans-serif;
   }
@@ -535,17 +528,14 @@ footer .icon-steel_tube {
   }
   .text h3 {
     font: 600 2.5rem 'Cinzel';
-    top: -19.6em;
   }
   .video embed {
-    top: -70%;
-    width: 65.5%;
-    height: 45%;
+    width: 55%;
+    height: 99.5%;
   }
   .button {
-    font: 700 3rem 'DM sans', white;
+    font: 700 2rem 'DM sans', white;
     padding: 8px 3rem;
-    top: -16em;
   }
   .button1 {
     background-image: linear-gradient(
@@ -568,8 +558,9 @@ footer .icon-steel_tube {
     height: 3.8rem;
   }
   .divider-2 {
-    -webkit-margin-before: -16.7em;
+    -webkit-margin-before: -4.3em;
   }
+
   h2.contato {
     font: 700 2.3rem 'Cinzel', sans-serif;
   }
@@ -577,10 +568,13 @@ footer .icon-steel_tube {
     margin-top: 5%;
     margin-bottom: 2.5%;
   }
-
+  .section-video {
+    height: 45em;
+  }
   footer {
     height: 13rem;
   }
+
   footer .icon-steel_tube {
     font-size: 9rem;
     left: 74rem;
@@ -600,16 +594,24 @@ footer .icon-steel_tube {
     left: 102rem;
     margin-bottom: 2rem;
   }
+
+  .image2 img {
+    width: 50%;
+    margin-top: 2%;
+  }
   .text h3 {
     font: 600 2.5rem 'Cinzel';
-    top: -25em;
+  }
+  .text-3 {
+    margin-bottom: 1.5rem;
+    text-align: center;
   }
   .button {
     font: 700 3rem 'DM sans', white;
     padding: 18px 4rem;
-    top: -20.3em;
   }
-  .divider-2 {
-    -webkit-margin-before: -18em;
+  .video embed {
+    width: 45%;
+    height: 110.5%;
   }
 }
