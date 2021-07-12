@@ -295,7 +295,7 @@ nav.show div.icon-menu {
   left: 10rem;
 }
 
-.video embed {
+.video iframe {
   border: inset rgb(51, 161, 212);
   -webkit-margin-before: 2em;
   text-align: center;
@@ -390,9 +390,9 @@ footer .icon-steel_tube {
     font: 600 0.8rem 'Cinzel';
     margin-bottom: 1rem;
   }
-  .video embed {
+  .video iframe {
     width: 62%;
-    height: 31%;
+    height: 49%;
   }
   .button {
     font: 700 1rem 'DM sans', white;
@@ -464,9 +464,9 @@ footer .icon-steel_tube {
   h2.contato {
     font: 700 1.3rem 'Cinzel', sans-serif;
   }
-  .video embed {
-    width: 56%;
-    height: 31%;
+  .video iframe {
+    width: 45%;
+    height: 45%;
   }
   .toggle {
     font-size: 2.5rem;
@@ -529,7 +529,7 @@ footer .icon-steel_tube {
   .text h3 {
     font: 600 2.5rem 'Cinzel';
   }
-  .video embed {
+  .video iframe {
     width: 55%;
     height: 99.5%;
   }
@@ -610,7 +610,7 @@ footer .icon-steel_tube {
     font: 700 3rem 'DM sans', white;
     padding: 18px 4rem;
   }
-  .video embed {
+  .video iframe {
     width: 45%;
     height: 110.5%;
   }
